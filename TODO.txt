@@ -1,0 +1,15 @@
+#To do file of what we should get done.
+#https://docs.google.com/presentation/d/11yp61qHG0uHj58sfd468_empckenQ4a_UXRTebcgIe4/edit
+
+The first task is just to get the algorithm to run. Local alignment
+- make the matrix with the strings displaying horizontally and vertically (like last semesters perl assignment)
+- fill in the matrix with the representative values. 
+- do the trace back effect
+- alignmnet output
+*Do we want to show the progressive states or do you just want them to provide the 2 strings and the final alignment result. 
+
+Use the local alignment to create a global alignmnet. 
+(if we have time we could map the protein alignment to the PAM250 matrix and stuff).
+(web app if you feeling bored).
+
+
