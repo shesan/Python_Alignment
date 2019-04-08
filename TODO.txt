@@ -1,6 +1,13 @@
 #To do file of what we should get done.
 #https://docs.google.com/presentation/d/11yp61qHG0uHj58sfd468_empckenQ4a_UXRTebcgIe4/edit
 
+1) Open sequence from file and remove the header and useless stuff to only contain the CGAT sequence (maybe keep the sequence name info for the results)
+2) Sequence Alignment
+	*Local
+	*Global
+3) Web Application
+4) Documentation
+
 The first task is just to get the algorithm to run. Local alignment
 - make the matrix with the strings displaying horizontally and vertically (like last semesters perl assignment)
 - fill in the matrix with the representative values. 
