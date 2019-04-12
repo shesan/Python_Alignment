@@ -1,0 +1,28 @@
+from itertools import groupby
+#load package that has a fasta file reading function
+
+def readFasta(filename='sample.fa'):
+   #reads in fasta file
+   
+    seq = ''
+    header = ''
+    #initialize method variables 
+    
+    fh = open('sample.fa')
+    
+    getSeq = (x[1] for x in groupby(fh, lambda line: line[0] == ">"))
+    # ditch the boolean (x[0]) and just keep the header or sequence since
+    # we know they alternate.
+    
+    for header in getSeq:
+    
+        header = header.next()[1:].strip()
+         # drop the ">"
+         
+        seq = "".join(s.strip() for s in getSeq.next())
+        # join all sequence lines to one.
+        
+        yield seq
+        
+for value in readFasta():
+    print(value)
