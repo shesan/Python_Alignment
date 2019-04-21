@@ -5,3 +5,4 @@ Contains:
 Python Tkinter GUI
 Global Sequence Alignment
 Sequence formater (removes header)
+
