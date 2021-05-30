@@ -1,5 +1,5 @@
 # Python_Alignment
-BIF724 python assignment of sequence alignment. 
+Python project to visualize the sequence alignment. 
 
 Contains:
 
